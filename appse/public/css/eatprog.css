@@ -1,0 +1,91 @@
+*{
+    margin: auto;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white; /* Optional: background color */
+    margin-top: 6%;
+}
+
+.header .logo {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+.goal{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content .box {
+    border: solid 1px #e5e7eb;
+    border-radius: 20px;
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Optional: Adds padding inside the box */
+    margin-top: 5%;
+    background-color: #f9fafb;
+}
+
+.content .box h1,
+.content .box p {
+    text-align: center;
+    margin: 0; /* Removes default margins */
+    padding: 5px 0; /* Optional: Adds some padding for better spacing */
+}
+
+.content .box h1{
+    color: #199a8e;
+    font-size: 25px;
+}
+
+.content .box p{
+    color: #767E8C;
+    font-size: 15px;
+}
+
+.content button{
+    width: 370px;
+    height: 60px;
+    margin-top: 10%;
+    border-radius: 32px;
+    background-color: #199A8E;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}   

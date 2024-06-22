@@ -85,3 +85,7 @@ Route::prefix('workout')->name('workout.')->group(function() {
 });
 
 Route::post('/workout/remove-from-finalized-plan', [WorkoutPlanController::class, 'removeFromFinalizedWorkoutPlan'])->name('workout.remove.from.finalized.plan');
+
+Route::get('/dashboard-eatprog', function () {
+    return view('main.diet-plan.dashboard-eatprog');
+})->name('dashboard-eatprog');
