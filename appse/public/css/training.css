@@ -1,0 +1,118 @@
+*{
+    margin: auto;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white; /* Optional: background color */
+    margin-top: 6%;
+}
+
+.header .logo {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+.search{
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 370px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 32px;
+}
+
+.search input{
+    border: none;
+    width: 310px;
+    justify-content: center;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.search .fa{
+    padding-left: 2%;
+    font-size: 14px;
+}
+
+.consultation{
+    margin-top: 10%;
+    width: 360px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.consultation h1, p{
+    padding-left: 5%;
+    padding-top: 5%;
+    color: white;
+    max-width: 330px;
+}
+
+.search-gym{
+    margin-top: 11px;
+    width: 360px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.search-gym h1{
+    padding-left: 5%;
+    padding-top: 5%;
+    color: white;
+    max-width: 250px;
+    margin-left: 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap to the next line */
+    gap: -10px; /* Adds space between the boxes, adjust as needed */
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ensures the text is readable */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adds a text shadow for better readability */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 13px;
+    margin-bottom: 13px;
+}
+
+.box h1{
+    font-size: 20px;
+}

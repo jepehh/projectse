@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white; /* Optional: background color */
+    margin-top: 6%;
+}
+
+.header .logo {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}

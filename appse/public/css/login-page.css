@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure consistent box sizing */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+
+.content {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    row-gap: 20px; /* Adjust this value to set the distance between rows */
+    text-align: center; /* Center text inside content */
+}
+
+.text h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #101623;
+    padding-bottom: 3%;
+}
+
+.text p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    max-width: 350px; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the paragraph */
+    padding-bottom: 6%;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust this value to set the distance between buttons */
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 25px 120px;
+    
+}
+
+.login {
+    background-color: #199A8E;
+    border-radius: 32px;
+    color: white;
+    transition: background-color 0.8 ease;
+    margin-bottom: 10px;
+}
+
+.login:hover{
+    background-color: #1f7068;
+}
+
+.sign-up {
+    background-color: white;
+    border: 1px solid #199A8E;
+    border-radius: 32px;
+    transition: all 0.7 ease;
+}
+
+.sign-up:hover{
+    background-color: #199A8E;
+    border: none;
+    color: white;
+}
