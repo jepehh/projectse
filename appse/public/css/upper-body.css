@@ -54,24 +54,6 @@
     font-size: 14px;
 }
 
-.overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-}
-.overlay-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    width: 80%;
-    max-width: 600px;
-}
 .close-btn {
     float: right;
     cursor: pointer;
@@ -109,11 +91,84 @@
     margin-top: 10px;
 }
 
-.workouts{
-    margin-left: 10px;
-    max-width: 400px;
-}
-
 .FILLER{
     margin-top: 40px;
+}
+
+.workout{
+    margin-left: 10px;
+    width: 385px;
+    border: 1px solid #199A8E;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.workout .workouts-rows{
+    display: flex;
+    flex-direction: row;
+}
+
+.workouts-rows img{
+    width: 70px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.workout h2{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.workouts-rows .text p{
+    font-weight: normal;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.workouts-rows .text{
+    margin-top: 15px;
+}
+
+.workouts-rows button{
+    margin-top: 10px;
+    padding: 10px 66px;
+    border: none;
+    background-color: #199A8E;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#view-plan-btn {
+    margin-top: 30px;
+    padding: 20px 100px;
+    border: none;
+    background-color: #199A8E;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    display: block; /* Make the button a block-level element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.overlay-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
 }

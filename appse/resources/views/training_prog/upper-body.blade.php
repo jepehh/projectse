@@ -38,19 +38,17 @@
                     @if($workout->image_path)
                         <img src="{{ asset('storage/' . $workout->image_path) }}" alt="{{ $workout->workout_name }} Image" width="200">
                     @endif
-                    <p><strong>Target:</strong> {{ $workout->workout_target }}</p>
-                    <p><strong>Difficulty:</strong> {{ $workout->workout_difficulty }}</p>
-                    <p><strong>Recommended Sets:</strong> {{ $workout->workout_recommended_sets }}</p>
-                    <p><strong>Recommended Weights:</strong> {{ $workout->workout_recommended_weights }} kg</p>
-                    <p><strong>Duration:</strong> {{ $workout->workout_duration }}</p>
-                    <button class="add-workout-btn">Add</button>
+                    <div class="text">
+                        <p><strong>Recommended Sets:</strong> {{ $workout->workout_recommended_sets }}</p>
+                        <p><strong>Recommended Weights:</strong> {{ $workout->workout_recommended_weights }} kg</p>
+                        <p><strong>Duration:</strong> {{ $workout->workout_duration }}</p>
+                        <button class="add-workout-btn">Add</button>
+                    </div>
                 </div>
             </div>
         @endforeach
     </div>
 
-
-    <button id="finalize-plan-btn">Finalize Workout Plan</button>
     <button id="view-plan-btn">View Current Workout Plan</button>
 
     <div class="overlay" id="workout-plan-overlay">
